@@ -4,7 +4,7 @@
 
 Categories in the medical sciences usually have some degree of uncertainty. This means that labeled data used for supervised training of neural network have an uncertainty with respect to what the categories are and the labeling. With the accuracy as performance measure, it is impossible to discover inaccurate labeling and paradoxically this will cause a lowered accuracy that actually reflect a superior performance by the neural network compared to human experts.
 
-Here this phenomenon is demonstrated and it is shown that the networks are robust to relatively high degree of mislabeled training data. This means that when dealing with data were the categories are fuzzy sets, accuracies < 100 % may represent new knowledge and alternative ways of evaluating the results must be used (a low accuracy may of course also mean that the network performs poorly).
+Here this phenomenon is demonstrated and it is shown that the networks are robust to relatively high degree of mislabeled training data. This means that when dealing with data were the categories are fuzzy sets, accuracies below 100 percent may represent new knowledge and alternative ways of evaluating the results must be used (a low accuracy may of course also mean that the network performs poorly).
 
 Two different data sets are used for the demonstration. The first is the well known MNIST data set consisting of images of handwritten digits, 0 - 9, a categorization most would not question. The second is an arbitrary categorization with four categories of single channel EEG data.
 
@@ -12,7 +12,7 @@ Two different data sets are used for the demonstration. The first is the well kn
 
 In contrast to the real case, theoretically or using a data set with certain categories and labeling, it can be tested to artificially induce mislabeling and evaluate the effect with both mislabeled and correctly labeled data. This will give two accuracies, an apparent and a true accuracy. The first is the accuracy when testing with mislabeled data, this is the accuracy that is seen in the real case. The second, is the accuracy when testing with correctly labeled data.
 
-For instance, if 10 % of the data is mislabeled and the neural network correctly learns the categories, the apparent accuracy would be 90 % but the true accuracy would be 100 %.
+For instance, if 10 percent of the data is mislabeled and the neural network correctly learns the categories, the apparent accuracy would be 90 percent but the true accuracy would be 100 percent.
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ideal model 0-10.png" width="40%">
