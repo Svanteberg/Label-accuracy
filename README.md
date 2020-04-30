@@ -2,6 +2,10 @@
 
 ## Introduction
 
+Categories in the medical sciences usually have some degree of uncertainty. This means that labeled data used for supervised training of neural network have an uncertainty with respect to what the categories are and the labeling. With the accuracy as performance measure, it is impossible to discover inaccurate labeling and paradoxically this will cause a lowered accuracy that actually reflect a superior performance by the neural network compared to human experts.
+
+### Modeling accuracy
+
 <p align="center">
 <img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ideal model 0-10.png" width="40%">
 </p>
@@ -17,6 +21,8 @@ Data from the published data base created at the Temple University Hospital (TUH
 <p align="center">
 <img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/examples of eeg categories.png" width="75%">
 </p>
+
+Four categories were defined: 1) periodic discharge I, 2) cardiac artefact, 3) periodic discharge II and 4) data free of 1 – 3.
 
 ## Results
 
