@@ -6,6 +6,8 @@ Categories in the medical sciences usually have some degree of uncertainty. This
 
 Here this phenomenon is demonstrated and it is shown that the networks are robust to relatively high degree of mislabeled training data. This means that when dealing with data were the categories are fuzzy sets, accuracies < 100 % may represent new knowledge and alternative ways of evaluating the results must be used (a low accuracy may of course also mean that the network performs poorly).
 
+Two different data sets are used for the demonstration. The well known MNIST data set consisting of images of handwritten digits, 0 - 9, a categorization most would not question. The second is an arbitrary categorization of four categories of single channel EEG data.
+
 ### Modeling accuracy
 
 <p align="center">
