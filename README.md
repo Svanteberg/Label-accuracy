@@ -10,7 +10,7 @@ Two different data sets are used for the demonstration. The first is the well kn
 
 ### Modeling accuracy
 
-In contrast to the real case, theoretically or using a data set with certain categories and labeling, it can be tested to artificially induce mislabeling and evaluate the effect with both mislabeled and correctly labeled data. This will give to accuracies, an apparent and a true accuracy. The first is the accuracy when testing with mislabeled data, this is the accuracy that is seen in the real case. The second, is the accuracy when testing with correctly labeled data.
+In contrast to the real case, theoretically or using a data set with certain categories and labeling, it can be tested to artificially induce mislabeling and evaluate the effect with both mislabeled and correctly labeled data. This will give two accuracies, an apparent and a true accuracy. The first is the accuracy when testing with mislabeled data, this is the accuracy that is seen in the real case. The second, is the accuracy when testing with correctly labeled data.
 
 For instance, if 10 % of the data is mislabeled and the neural network correctly learns the categories, the apparent accuracy would be 90 % but the true accuracy would be 100 %.
 
