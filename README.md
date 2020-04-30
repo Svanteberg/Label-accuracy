@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Categories in the medical sciences usually have some degree of uncertainty. This means that labeled data used for supervised training of neural network have an uncertainty with respect to what the categories are and the labeling. With the accuracy as performance measure, it is impossible to discover inaccurate labeling and paradoxically this will cause a lowered accuracy that actually reflect a superior performance by the neural network compared to human experts.
+Categories in the medical sciences usually have some degree of uncertainty. This means that labeled data used for supervised training of neural network have an uncertainty with respect to what the categories are and the labeling. With the accuracy as performance measure, it is impossible to discover inaccurate labeling and paradoxically this will cause a lowered accuracy that actually reflect a superior performance by the neural network compared to the human experts that have labeled the data.
 
 Here this phenomenon is demonstrated and it is shown that the networks are robust to relatively high degree of mislabeled training data. This means that when dealing with data were the categories are fuzzy sets, accuracies below 100 percent may represent new knowledge and alternative ways of evaluating the results must be used (a low accuracy may of course also mean that the network performs poorly).
 
