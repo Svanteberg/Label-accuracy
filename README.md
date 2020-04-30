@@ -3,7 +3,7 @@
 ## Introduction
 
 <p align="center">
-<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ideal model 0-10.png" width="50%">
+<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ideal model 0-10.png" width="40%">
 </p>
 
 ## Materials & methods
