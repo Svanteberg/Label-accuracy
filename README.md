@@ -12,7 +12,7 @@ Two different data sets are used for the demonstration. The first is the well kn
 
 In contrast to the real case, theoretically or using a data set with certain categories and labeling, it can be tested to artificially induce mislabeling and evaluate the effect with both mislabeled and correctly labeled data. This will give two accuracies, an apparent and a true accuracy. The first is the accuracy when testing with mislabeled data, this is the accuracy that is seen in the real case. The second, is the accuracy when testing with correctly labeled data and it usually unmeasurable and hidden in the real case.
 
-For instance, if 10 percent of the data is mislabeled and the neural network correctly learns the categories, the apparent accuracy would be 90 percent but the true accuracy would be 100 percent.
+For instance, if 10 percent of the data is mislabeled and the neural network still correctly learns the categories, the apparent accuracy would be 90 percent but the true accuracy would be 100 percent.
 
 <p align="center">
 <img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ideal model 0-10.png" width="40%">
