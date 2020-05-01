@@ -1,4 +1,4 @@
-# Modeling the effect of label accuracy on prediction accuracy of neural networks
+# Modeling the effect of expert accuracy on prediction accuracy of neural networks
 
 ## Introduction
 
