@@ -1,4 +1,4 @@
-# AI vs. humans: The effect of annotations errors on supervised learning of convolutional neural networks
+# AI vs. humans: The effect of annotation errors on supervised learning of convolutional neural networks
 
 ## Introduction
 
