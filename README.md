@@ -17,7 +17,7 @@ In contrast to the real case, theoretically or using a data set with certain cat
 For instance, if 10 percent of the data is mislabeled and the neural network still correctly learns the categories, the apparent accuracy would be 90 percent but the true accuracy would be 100 percent.
 
 <p align="center">
-<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs__human_ideal.png" width="40%">
+<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs_human_ideal.png" width="40%">
 </p>
 
 ## Materials & methods
@@ -43,11 +43,11 @@ Each example was 0.5 s, or 128 samples, in duration.
 ### MNIST
 
 <p align="center">
-<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs__human_mnist_8.png" width="75%">
+<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs_human_mnist_8.png" width="75%">
 </p>
 
 ### EEG data
 
 <p align="center">
-<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs__human_eeg.png" width="75%">
+<img src="https://github.com/Svanteberg/Label-accuracy/blob/master/images/ai_vs_human_eeg.png" width="75%">
 </p>
